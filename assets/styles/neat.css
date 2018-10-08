@@ -1,0 +1,49 @@
+.navbar-brand img {
+    width: 100px;
+    height: 50px;
+}
+/* HERO IMG */
+header {
+    background-image: url(../hero/hero-bg.png);
+}
+.jumbotron {
+    background-color: transparent;
+}
+.jumbotron--img__park {
+    position: relative;
+    left: -400px;
+}
+.jumbotron--img__people img {
+    position: absolute;
+    top: 207px;
+    left: 206px;
+    width: 9009px;
+    height: 400px;    
+}
+
+/*
+    STEPS SECTION
+*/
+.steps img {
+    background-color: #FC6;
+    padding: 30px;
+    border-radius: 100px;
+    border-radius: 200px;
+}
+
+/*
+    REVIEWS SECTION 
+*/
+.reviews {
+    background-color: #75B9E7;
+}
+
+/*
+    SM SCREEN
+*/
+
+@media (max-width: 576px) {
+   .jumbotron--img__park {
+        left: -273px;
+   }
+}
